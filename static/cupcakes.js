@@ -7,9 +7,7 @@ function createCupcake(cupcake) {
             ${cupcake.flavor} / ${cupcake.size} / ${cupcake.rating}
             <button class="delete-button">X</button>
         </li>
-        <img class="Cupcake-img"
-            src="${cupcake.img}"
-            alt="(no image provided)">
+        <img class="Cupcake-img" src=${cupcake.image} alt="(no image provided)">
     </div>`;
 }
 
